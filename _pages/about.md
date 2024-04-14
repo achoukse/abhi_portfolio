@@ -86,5 +86,5 @@ _ **Technologies** _ **:** _Kenan, PL/SQL, Oracle 9i, Linux, BMC Remedy user, pu
 
 ## EDUCATION
 
-- **Kent State University** Kent, OH _MS in Computer Science_
+- **Kent State University** Kent, OH _MSc in Computer Science_
 - **Shri GS Institute of Technology and Science** Indore, India _Bachelor of Computer Engineering_
