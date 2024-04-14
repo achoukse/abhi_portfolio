@@ -31,7 +31,7 @@ words_per_minute         : 200
 
 # Site Author
 author:
-  name                : Nitin Chaurasia
+  name                : Abhilash Chouksey
   avatar              : /assets/images/avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio                 : Java Microservices Developer
   location            : Not on Moon Yet!!

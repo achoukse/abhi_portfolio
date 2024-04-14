@@ -73,23 +73,23 @@ try {
 1. **String** objects are immutable (every equality with string object creates a new object)
 
 ```java
-String a = new String("Nitin");//Immutable Object
-String b = "Nitin";// When we use double quotes to create a string, it first looks for the string with the same value in the String Pool. If found it just returns the reference.
+String a = new String("Abhilash");//Immutable Object
+String b = "Abhilash";// When we use double quotes to create a string, it first looks for the string with the same value in the String Pool. If found it just returns the reference.
 //  It does so for conserving memory FLYWAY DESIGN PATTERN.
 
-String s4 = new String("nitin");
-String s5 = new String("nitin");
+String s4 = new String("Abhilash");
+String s5 = new String("Abhilash");
 /* String s4 and s5 are two different String objecs lying in the "Heap" */
 
-a.concate(Chaurasia);//Eligible for GC as not referenced
-sop(a);// Nitin
-//2 strings are created (Nitin and Nitin Chaurasia). NC not reference
+a.concate(Chouksey);//Eligible for GC as not referenced
+sop(a);// Abhilash
+//2 strings are created (Abhilash and Abhilash chouksey). NC not reference
 ```
 2. **StringBuffer** objects are mutable
 ```java
-StringBuffer sb = new StringBuffer("Nitin");
-sb.append("Chaurasia");
-sop(sb);//nitin chaurasia
+StringBuffer sb = new StringBuffer("Abhilash");
+sb.append("Chouksey");
+sop(sb);//Abhilash chouksey
 ```
 StringBuffer (since java 1.0) is Synchronized, thus thread safe, thus low performance (only one thread operates on the object at a time, others has to wait)
 
@@ -153,10 +153,10 @@ Anything can be declared inside anything!!
 ### System.out.println()
 ```java
 Class MySystem{
-static string out = "nitin";
+static string out = "Abhilash";
 }
 MySystem.out.length(); //Compare it to
-System.out.println("nitin");
+System.out.println("Abhilash");
 ```
 - System is a Class
 - out is a static variable of type PrintStream in System class
@@ -167,7 +167,7 @@ System.out.println("nitin");
 - Main method name can be set to a desired name by configuring JVM [JVM Customization]
 ```
 JVM {
-public static void nitin(String[] a)
+public static void Abhilash(String[] a)
 }
 ```
 - public : to be called by JVM from anywhere
